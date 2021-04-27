@@ -10,4 +10,4 @@ def test_checkout():
         object_cost: int
 
     purchases = item("sneakers", "clothing", 10)
-    main.calculate_checkout("Massachusetts", purchases)
+    assert main.calculate_checkout("Massachusetts", purchases) == 10

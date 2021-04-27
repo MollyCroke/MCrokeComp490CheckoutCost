@@ -44,8 +44,10 @@ def calculate_checkout(state, items):
     revenue = x
     amount = revenue + amount
     print(amount)
+    return amount
+
 
 
 if __name__ == '__main__':
     purchase = item("sneakers", "clothing", 200)
-    calculate_checkout("Massachusetts", purchase)
+    print(type(calculate_checkout("Massachusetts", purchase)))
