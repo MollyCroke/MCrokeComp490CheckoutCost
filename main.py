@@ -9,15 +9,6 @@ Maine:
 Clothing*5.5
 WIC food none
 Everything else *5.5
-
-from dataclasses import dataclass
-
-
-@dataclass
-class item:
-    object_name: str
-    object_type: str
-    object_cost: int
 """
 
 
